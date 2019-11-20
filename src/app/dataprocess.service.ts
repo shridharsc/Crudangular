@@ -21,6 +21,6 @@ export class DataprocessService {
   }
 
   updateData(tablename,id,data){
-    return this.http.put(this.url+tablename+"/"+id,data)
+    return this.http.put(this.url+tablename+"/"+id,data);
   }
 }
